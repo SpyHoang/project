@@ -31,11 +31,11 @@ if (isset($_SESSION['cart'])) {
             <div class="_3hJbyz"><?php echo number_format($cart_item['giasp'], 0, ',', '.') . ' VND'; ?></div>
             <div class="_155Uu2 cart-product__input">
               <button class="cart-product__item-input-increased">
-              <i class="fas fa-plus"></i>
+              <i class="fas fa-minus"></i>
               </button>
               <input class="cart-product__item-input-value" type="text" value="<?php echo $cart_item['soluong']; ?>">
               <button class="cart-product__item-input-decreased">
-                <i class="fas fa-minus"></i>
+              <i class="fas fa-plus"></i>
               </button>
             </div>
             <div class="_10ZkNr"><?php echo number_format($thanhtien, 0, ',', '.') . ' VND' ?></div>
